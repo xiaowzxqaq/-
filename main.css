@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'fonta';
+    
+    src: url('src/font/PWChalk.ttf');
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container1 {
+    padding: 50px 15%;
+    font-family: fonta;
+    background: rgba(168, 243, 254, 1);
+}
+
+.container1 .title {
+    text-align: center;
+    
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+
+.container1 .subtitle {
+    margin:20px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.huge {
+    font-size: 25px;
+}
+
+.container1 .avators {
+    width: 100%;
+}
+
+.avators img {
+    width: 100%;
+}
+
+.container1 #join-us {
+    width: 30%;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 12px;
+    text-align: center;
+    background: rgba(253,168,61, 1);
+    color: white;
+}
+
+.container1 .arrow {
+    margin: 20px auto;
+    width: 40%;
+} 
+
+.container1 .arrow .arrowimg {
+    margin: 0 auto;
+    width: 20%;
+}
+
+.container1 .arrow div img {
+   
+    width: 100%;
+}
+
+.container1 .arrow .discripe {
+    text-align: center;
+    font-size: 15px;
+    color: #eb9b19;
+}
+
+
+
+
+
+.container2 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(168, 243, 254, 1);
+}
+
+
+.container2 .avator{
+    padding-top: 100px;
+    width: 80%;
+    padding-bottom: 120px;
+}
+
+.container2 .avator img {
+    width: 100%;
+
+}
+
+.container2 .right{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.container2 .right .info-line {
+    height: 80px;
+}
+
+.container2 .right .circle-group {
+    width: 80%;
+    position: relative;
+    top: -52px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 .right .circle-group .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: rgba(253,168,61, 1);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container2 .right .circle-group div::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border:3px solid rgba(253,168,61, 1);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: -8px;
+    top: -8px;
+}
+
+
+.container2 .right .list {
+    font-family: fonta;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -5%;
+}
+
+.container2 .right .info {
+    align-content: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.container2 .right .info .inputer {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: column;
+    font-family: fonta;
+    padding-top: 80px;
+}
+
+.container2 .right .info .inputer input {
+    border:0;
+    border-bottom: 2px solid white;
+    background: rgba(0,0,0,0);
+}
+
+.container2 .right  #submit {
+    height: 40px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.container2 .right #submit button {
+    width: 100%;
+    background: #eb9b19;
+    border:0;
+    color: white;
+    height: 100%;
+    font-family: fonta;
+    padding-top: 5%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.container {
+    
+}
+
+
+.container .nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background: #eb9b19;
+    width: 100%;
+    color: white;
+    font-family: fonta;
+    font-size: 30px;
+
+}
+
+.container .nav .right {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.container .nav .right span {
+    width: 300px;
+    margin-right: 0;
+}
+
+.container .nav span {
+    margin: 0 30px;
+    margin-top: 30px;
+}
+
+.container .display {
+    width: 80%;
+    margin: 100px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .display .left {
+    width: 100%;
+}
+.container .display .left img{
+
+    height: 550px;
+}
+
+.container .display .right {
+    margin: 40px;
+    width: 100%;
+}
+
+.container .display .right p {
+    display: flex;
+    overflow: auto;
+    width: 80%;
+}
